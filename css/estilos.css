@@ -188,7 +188,8 @@ body {
 
 .thirdContent{
     width: 100%;
-    background-color: #F08080; 
+    background: rgb(249,98,159);
+    background: linear-gradient(302deg, rgba(249,98,159,1) 0%, rgba(255,192,203,1) 35%, rgba(238,192,200,1) 100%);
     overflow: hidden;
     display: grid;
     grid-template-rows: repeat(4,1fr);
@@ -421,7 +422,8 @@ body {
 
 .especialidades{
     width: 100%;
-    background-color: #F08080;
+    background: rgb(249,98,159);
+    background: linear-gradient(302deg, rgba(249,98,159,1) 0%, rgba(255,192,203,1) 35%, rgba(238,192,200,1) 100%);
     overflow: hidden;
     display: grid;
     grid-template-rows: repeat(3,auto);
@@ -671,7 +673,8 @@ body {
 
 .cursos__text{
     width: 100%;
-    background-color: #F8AD9D;
+    background: rgb(249,98,159);
+    background: linear-gradient(302deg, rgba(249,98,159,1) 0%, rgba(255,192,203,1) 35%, rgba(238,192,200,1) 100%);
     font-size: 1rem;
     font-weight: 900;
     text-align: center;
