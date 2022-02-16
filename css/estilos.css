@@ -832,7 +832,8 @@ body {
 .submit{
     font-size: 1.1rem;
     font-weight: 500;
-    background-color: #FBC4AB;
+    background: rgb(249,98,159);
+    background: linear-gradient(302deg, rgba(249,98,159,1) 0%, rgba(255,192,203,1) 35%, rgba(238,192,200,1) 100%);
     border: 1px solid #FBC4AB;
     border-radius: 4px;
     margin-top: 2px;
