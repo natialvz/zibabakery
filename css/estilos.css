@@ -9,7 +9,7 @@
     object-fit: cover;
 }
 
-.third-content, .fifth-content, .especialidades{
+.third-content, .fifth-content, .especialidades, .contratar{
 background: rgb(240,128,128);
 background: radial-gradient(circle, rgba(240,128,128,1) 0%, rgba(248,173,157,0.7987570028011204) 100%);
 }
@@ -18,4 +18,25 @@ background: radial-gradient(circle, rgba(240,128,128,1) 0%, rgba(248,173,157,0.7
     background-color: #FFDAB9;
     border: 1px solid #FFDAB9;
     border-radius: 5%;
+}
+
+.cursos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.cursos::after{
+    content:"";
+    background-image: url(../multimedia/alfajor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: .6;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
