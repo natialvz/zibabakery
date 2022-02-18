@@ -9,7 +9,7 @@
     object-fit: cover;
 }
 
-.third-content, .fifth-content{
+.third-content, .fifth-content, .especialidades{
 background: rgb(240,128,128);
 background: radial-gradient(circle, rgba(240,128,128,1) 0%, rgba(248,173,157,0.7987570028011204) 100%);
 }
@@ -18,8 +18,4 @@ background: radial-gradient(circle, rgba(240,128,128,1) 0%, rgba(248,173,157,0.7
     background-color: #FFDAB9;
     border: 1px solid #FFDAB9;
     border-radius: 5%;
-}
-
-.ziba-index h2{
-    color: F08080;
 }
