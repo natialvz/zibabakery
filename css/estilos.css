@@ -9,7 +9,7 @@
     object-fit: cover;
 }
 
-.third-content, .fifth-content, .especialidades, .contratar{
+.third-content, .fifth-content, .especialidades, .contratar, .recetas, .contact{
 background: rgb(240,128,128);
 background: radial-gradient(circle, rgba(240,128,128,1) 0%, rgba(248,173,157,0.7987570028011204) 100%);
 }
