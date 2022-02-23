@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+
 .navbar-brand img{
     width: 160px;
     height: 80px;
@@ -40,3 +45,29 @@ background: radial-gradient(circle, rgba(240,128,128,1) 0%, rgba(248,173,157,0.7
     bottom: 0;
     right: 0;
 }
+
+.index-title{
+    color: #F08080;
+    font-weight: 900;
+}
+
+.index-title2{
+    color:#000000;
+    font-weight: 900;
+}
+
+.carousel-text{
+    color: #000000;
+}
+
+.carousel-text h5{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.carousel-text p{
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+
