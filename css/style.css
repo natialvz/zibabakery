@@ -1,0 +1,16 @@
+nav div a img {
+  width: 160px;
+  height: 80px;
+}
+
+.carousel-img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+.third-content, .fifth-content {
+  background: lightcoral;
+  background: radial-gradient(circle, lightcoral 0%, rgba(248, 173, 157, 0.7987570028) 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
