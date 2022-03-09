@@ -204,6 +204,10 @@ body {
   font-weight: 900;
 }
 
+.especialidades {
+  background-color: #F08080;
+}
+
 .tipoCurso .online .online__card .online__card--back ul li, .tipoCurso .presencial .presencial__card .presencial__card--back ul li {
   display: flex;
   flex-direction: column;
