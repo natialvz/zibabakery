@@ -1,0 +1,143 @@
+@import '../base/extends';
+
+.cursos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.cursos::after{
+    content:"";
+    background-image: url(../multimedia/alfajor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: .6;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.tipoCurso{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 2rem;
+    place-items: center;
+    margin: 30px 0px;
+    .online{
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px; 
+        .online__card{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            .online__card--front{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden; 
+                backface-visibility: hidden;
+                background-color: nth($colores, 7);
+                color: nth($colores, 6);
+                img{
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+            .online__card--back{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden; 
+                backface-visibility: hidden;
+                background-color: nth($colores, 2);
+                color: nth($colores, 6);
+                transform: rotateY(180deg);
+                ul{
+                    list-style: none;
+                    margin:60px 10px 60px 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    li{
+                        font-size: 1.2rem;
+                        font-weight: 900;
+                        padding: 5px;
+                        @extend %alignment;
+                    }
+                }
+            }
+
+        }
+    }
+    .presencial{
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px; 
+        .presencial__card{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            .presencial__card--front{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden; 
+                backface-visibility: hidden;
+                background-color: nth($colores, 7);
+                color: nth($colores, 6);
+                img{
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+            .presencial__card--back{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden; 
+                backface-visibility: hidden;
+                background-color: nth($colores, 2);
+                color: nth($colores, 6);
+                transform: rotateY(180deg);
+                ul{
+                    list-style: none;
+                    margin:60px 10px 60px 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    li{
+                        font-size: 1.2rem;
+                        font-weight: 900;
+                        padding: 5px;
+                        @extend %alignment;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 1024px)  {
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(1,auto);
+    }  
+}
+ 
+  .online:hover .online__card {
+    transform: rotateY(180deg);
+  }
+
+  .presencial:hover .presencial__card {
+    transform: rotateY(180deg);
+}
+  
